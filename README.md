@@ -21,10 +21,14 @@ Schema :
 Available here : https://wokwi.com/projects/354364770938972161
 - It is a simplified version (no capacitor) : capacitors are used to limit bounce effect on push buttons, and are placed between the +VCC and the digital pin
 - The code is not guaranteed to be up to date (use code in github to be sure)
+- You can add LEDs to have a visual feedback of the relay commands. Simply connect a resistor and a LED between to the output pin and the +VCC 
 
 FAQ :
+Q : I have a brand new Arduino Uno, all required components have been properly soldered (or plugged on breadboard) but I don't know what to do with the .ino file
+A : Install Arduino IDE on your computer (Windows / Mac / Linux) from here : https://www.arduino.cc/en/software then follow starting guide (to be added soon)
+
 Q : Why didn't use the timer_0, timer_1 and timer_2 instead of reiventing wheel ?
-R : Less code for same result. I don't need precision lower than 1 second, so it's OK
+A : Less code for same result. I don't need precision lower than 1 second, so it's OK
 
 Q : I don't have a temperature sensor module and don't want to use it
-R : Connect the digital pin 7 of the Arduino to +VCC. It will disable the functionality in code (measure and display)
+A : Connect the digital pin 7 of the Arduino to +VCC. It will disable the functionality in code (measure and display)
