@@ -19,7 +19,12 @@ Component list :
 - wires, box, soldering iron, patience and good music
 
 Schema :
-- will come soon
+Available here : https://wokwi.com/projects/354364770938972161
+Be careful : it is a simplified version (no capacitor or transistor)
+- Capacitors are used to limit bounce effect on push buttons, and are placed between the +VCC and the digital pin
+- Transistors are used to control relays (output current from digital pin is limited). Even if it works without transistor, I recommand using them
+
+-> I will add specific schemas for these
 
 FAQ :
 Q : Why didn't use the timer_0, timer_1 and timer_2 instead of reiventing wheel ?
