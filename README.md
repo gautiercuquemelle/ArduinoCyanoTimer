@@ -14,21 +14,13 @@ Component list :
 - 8 x Resistor 10kOhm
 - 4 x push buttons
 - 4 x capacitor 10 nF
-- 2 x NPN transistor (2n3906)
 - 1 x prototype board
 - wires, box, soldering iron, patience and good music
 
 Schema :
 Available here : https://wokwi.com/projects/354364770938972161
-Be careful :
-- it is a simplified version (no capacitor or transistor)
-- the code is not guaranteed to be up to date (use code in github to be sure)
-
-FYI :
-- Capacitors are used to limit bounce effect on push buttons, and are placed between the +VCC and the digital pin
-- Transistors are used to control relays (output current from digital pin is limited). Even if it works without transistor, I recommand using them
-
-=> I will add specific schemas for these
+- It is a simplified version (no capacitor) : capacitors are used to limit bounce effect on push buttons, and are placed between the +VCC and the digital pin
+- The code is not guaranteed to be up to date (use code in github to be sure)
 
 FAQ :
 Q : Why didn't use the timer_0, timer_1 and timer_2 instead of reiventing wheel ?
