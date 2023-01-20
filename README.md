@@ -8,7 +8,7 @@ Used Libraries :
 
 Component list :
 - 1 x Arduino Uno R3
-- 1 x 16x2 LCD display with I2C (I used one from iHaospace with PCF8574T chipset). Address used in code will vary depending of the chipset : read the specs !
+- 1 x 16x2 LCD display with I2C (I used one from iHaospace with PCF8574T chipset)
 - 1 x Double realay module (Yizhet 5V relay module with Songle SRD-05VDC relays)
 - 1 x Temperature and humidity sensor module (KY-015 DHT)
 - 4 x Resistor 10kOhm
