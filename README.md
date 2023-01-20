@@ -11,7 +11,7 @@ Component list :
 - 1 x 16x2 LCD display with I2C (I used one from iHaospace with PCF8574T chipset). Address used in code will vary depending of the chipset : read the specs !
 - 1 x Double realay module (Yizhet 5V relay module with Songle SRD-05VDC relays)
 - 1 x Temperature and humidity sensor module (KY-015 DHT)
-- 8 x Resistor 10kOhm
+- 4 x Resistor 10kOhm
 - 4 x push buttons
 - 4 x capacitor 10 nF
 - 1 x prototype board
