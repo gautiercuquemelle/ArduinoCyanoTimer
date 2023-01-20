@@ -17,23 +17,21 @@ Component list :
 - 1 x prototype board
 - wires, box, soldering iron, patience and good music
 
-Schema :
-Available here : https://wokwi.com/projects/354364770938972161
+Schema is available here : https://wokwi.com/projects/354364770938972161
 - It is a simplified version (no capacitor) : capacitors are used to limit bounce effect on push buttons, and are placed between the +VCC and the digital pin
 - The code is not guaranteed to be up to date (use code in github to be sure)
 - You can add LEDs to have a visual feedback of the relay commands. Simply connect a resistor and a LED between to the output pin and the +VCC 
 
-FAQ :
+FAQ :<br>
+Q : I have a brand new Arduino Uno, all required components have been properly soldered (or plugged on breadboard) but I don't know what to do with the .ino file<br>
+A : Install Arduino IDE on your computer (Windows / Mac / Linux) from here : https://www.arduino.cc/en/software then follow starting guide in file HowToUploadProgramToArduino.pdf<br>
 
-Q : I have a brand new Arduino Uno, all required components have been properly soldered (or plugged on breadboard) but I don't know what to do with the .ino file
-A : Install Arduino IDE on your computer (Windows / Mac / Linux) from here : https://www.arduino.cc/en/software then follow starting guide in file HowToUploadProgramToArduino.pdf
+Q : I have uploaded program in my Arduino but screen stays blank (or blue)<br>
+A1 : On the I2C module there is a potentiometer to adjust contrast : try to adjust contrast, it can be as easy<br>
+A2 : Check the chipset reference on the I2C module of the LCD screen. For 8574T use 0x27, for 8574AT use 0x3F, for other ref check in the spec. Value must be changed in the code : check the first line after the "#Include" lines<br>
 
-Q : I have uploaded program in my Arduino but screen stays blank (or blue)
-A1 : On the I2C module there is a potentiometer to adjust contrast : try to adjust contrast, it can be as easy
-A2 : Check the chipset reference on the I2C module of the LCD screen. For 8574T use 0x27, for 8574AT use 0x3F, for other ref check in the spec. Value must be changed in the code : check the first line after the "#Include" lines
+Q : Why didn't use the timer_0, timer_1 and timer_2 instead of reiventing wheel ?<br>
+A : Less code for same result. I don't need precision lower than 1 second, so it's OK<br>
 
-Q : Why didn't use the timer_0, timer_1 and timer_2 instead of reiventing wheel ?
-A : Less code for same result. I don't need precision lower than 1 second, so it's OK
-
-Q : I don't have a temperature sensor module and don't want to use it
-A : Connect the digital pin 7 of the Arduino to +VCC. It will disable the functionality in code (measure and display)
+Q : I don't have a temperature sensor module and don't want to use it<br>
+A : Connect the digital pin 7 of the Arduino to +VCC. It will disable the functionality in code (measure and display)<br>
