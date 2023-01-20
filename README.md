@@ -25,7 +25,7 @@ Available here : https://wokwi.com/projects/354364770938972161<br>
 
 ### FAQ<br><br>
 <b>Q</b> : I have a brand new Arduino Uno, all required components have been properly soldered (or plugged on breadboard) but I don't know what to do with the .ino file<br>
-<b>A</b> : Install Arduino IDE on your computer (Windows / Mac / Linux) from here : https://www.arduino.cc/en/software then follow starting guide in file [HowToUploadProgramToArduino.pdf](https://github.com/gautiercuquemelle/ArduinoCyanoTimer/blob/main/HowToUploadProgramToArduino.pdf)<br>
+<b>A</b> : Install Arduino IDE on your computer (Windows / Mac / Linux) from here : https://www.arduino.cc/en/software then follow starting guide : [HowToUploadProgramToArduino.pdf](https://github.com/gautiercuquemelle/ArduinoCyanoTimer/blob/main/HowToUploadProgramToArduino.pdf)<br>
 
 <b>Q</b> : I have uploaded program in my Arduino but screen stays blank (or blue)<br>
 <b>A1</b> : On the I2C module there is a potentiometer to adjust contrast : try to adjust contrast, it can be as easy<br>
