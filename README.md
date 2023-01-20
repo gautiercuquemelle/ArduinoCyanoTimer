@@ -24,7 +24,9 @@ Available here : https://wokwi.com/projects/354364770938972161
 - You can add LEDs to have a visual feedback of the relay commands. Simply connect a resistor and a LED between to the output pin and the +VCC 
 
 FAQ :
+
 Q : I have a brand new Arduino Uno, all required components have been properly soldered (or plugged on breadboard) but I don't know what to do with the .ino file
+
 A : Install Arduino IDE on your computer (Windows / Mac / Linux) from here : https://www.arduino.cc/en/software then follow starting guide in file HowToUploadProgramToArduino.pdf
 
 Q : I have uploaded program in my Arduino but screen stays blank (or blue)
