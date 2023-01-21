@@ -1,4 +1,8 @@
 # ArduinoCyanoTimer
+
+## Still under development, may not work as expected, use at your own risk !
+-> I need to find other relays due to current peek when UV tubes start
+
 ### Arduino code for a simple timer controlling 2 relays : 
 - #1 to control anything you want (I use it to control an UV lamp used for cyanotype process). Take care of the voltage and current ! Relay modules used can handle 220V AC and 10A or 30V DC and 10A. I won't take any responsibility of any damage if you plug a 2500W heater (or for any other bad idea)
 - #2 to control a venting system used to cool the lamp if temperature is greater than 30°C
